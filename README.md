@@ -21,16 +21,17 @@ The app is built using **Streamlit** for an interactive UI and **XGBoost (Extrem
 
 ---
 
-# 🖼️ Demo Screenshot
-
+# 🖼️ Screenshot
+## Sample UI 
 ![Sample UI](image/Sample_ui.png)
 
+### Predicted Burned Calories
 ![Predicted Burned Calories](image/predicted_burned_calories.png)
 
 ---
 
 ## ⚙️ Tech Stack
-- **Python**
+- c
 - **Streamlit** (UI framework)
 - **XGBoost** (machine learning model)
 - **Pandas, NumPy** (data processing)
