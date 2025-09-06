@@ -31,7 +31,6 @@ The app is built using **Streamlit** for an interactive UI and **XGBoost (Extrem
 ---
 
 ## ⚙️ Tech Stack
-- c
 - **Streamlit** (UI framework)
 - **XGBoost** (machine learning model)
 - **Pandas, NumPy** (data processing)
