@@ -1,10 +1,14 @@
 import pickle
 import streamlit as st
 import numpy as np
+import os
 
 # Loading the trained model
-model_path = r"C:\Users\Rapid IT World\Desktop\New folder\Calories burned Predictor\calories.sav"
-loaded_model = pickle.load(open(model_path, 'rb'))
+model_path = os.path.join(os.path.dirname(__file__), "calories.sav")
+with open(model_path, "rb") as file:
+    loaded_model = pickle.load(file)
+# model_path = r"C:\Users\Rapid IT World\Desktop\New folder\Calories burned Predictor\calories.sav"
+# loaded_model = pickle.load(open(model_path, 'rb'))
 
 #UI layout
 st.set_page_config(page_title="Smart Calorie Burn Predictor", layout="centered")
